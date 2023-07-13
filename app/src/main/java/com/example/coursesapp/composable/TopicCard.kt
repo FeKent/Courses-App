@@ -66,8 +66,8 @@ fun TopicCard(topic: Topic, modifier: Modifier = Modifier) {
     }
 }
 
-@Preview (showBackground = true)
+@Preview (showBackground = false)
 @Composable
 fun TopicCardPreview() {
-    TopicCard(topic = Topic(R.string.architecture, 58, R.drawable.architecture))
+    TopicCard(topic = Topic(R.string.photography, 321, R.drawable.photography),)
 }
